@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - July Ribeiro</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="light-theme">
+  <!-- CABEÇALHO -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#hero-section"><h1 class="logo">JULY<span class="realce">RIBEIRO</span>.dev</h1></a>
+
+      <!-- Menu mobile -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <!-- Navegação -->
+      <nav class="navbar">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <!-- Botão de tema -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar tema">
+          <i class="fas fa-moon"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero section" id="hero-section" >
+    <div class="container hero-grid">
+      <div class="hero-img">
+        <img
+          src="assets/imgs/foto-perfil.png"
+          alt="Foto de perfil de July Ribeiro - desenvolvedora front-end"
+          class="profile-img"
+        />
+      </div>
+      <div class="hero-text">
+        <!-- Texto dinâmico (JS) -->
+        <h2><span id="typed" class="typed-text"></span></h2>
+        <p>
+          Meu nome é <strong>July Ribeiro</strong>. Sou formada em
+          <strong>Análise e Desenvolvimento de Sistemas</strong> e apaixonada por tecnologia.
+          Atualmente em transição de carreira, me dedicando ao <strong>desenvolvimento front-end</strong>.
+        </p>
+        <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre" class="section">
+    <div class="container about-text">
+      <h2 class="section-title">Sobre mim</h2>
+      <div class="about-content">
+        <p class="section-text">
+          Meu nome é July Ribeiro. Sou formada em <strong>Análise e Desenvolvimento de Sistemas</strong> e apaixonada
+          por tecnologia.
+          Atualmente, trabalho na área administrativa e estou em transição de carreira, me dedicando ao
+          <strong>desenvolvimento front-end</strong>, explorando HTML, CSS, JavaScript e React.
+        </p>
+        <p class="section-text">
+          Estudo também <strong>versionamento de código (Git/GitHub)</strong> e <strong>design no Figma</strong>,
+          aprimorando habilidades que unem criatividade e organização.
+        </p>
+        <p class="section-text">
+          Participo de programas e cursos que me ajudam a evoluir constantemente, sempre buscando construir soluções
+          funcionais, acessíveis e bonitas, unindo minha experiência administrativa com a paixão pela tecnologia.
+        </p>
+        <p class="section-text">
+          Meu objetivo é aprender, criar e inspirar, transformando desafios em oportunidades e ideias em projetos reais.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Minhas Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+        <div class="skill-card"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+        <div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+        <div class="skill-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+        <div class="skill-card"><i class="devicon-github-original"></i><span>GitHub</span></div>
+        <div class="skill-card"><i class="devicon-figma-plain colored"></i><span>Figma</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2 class="section-title">Meus Projetos</h2>
+      <div class="projetos-grid">
+        <!-- Projeto 1 -->
+        <div class="projeto-card">
+          <div class="projeto-img">
+            <img src="assets/imgs/card-project-1.png" alt="Projeto Previsão do Tempo - aplicativo web responsivo" />
+          </div>
+          <div class="projeto-content">
+            <h3>Previsão do Tempo</h3>
+            <p>Aplicativo que exibe a previsão da semana. Desenvolvido com HTML, CSS e JavaScript puro.</p>
+            <div class="projeto-techs"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="projeto-btns">
+              <a href="#" class="btn-projeto">Ver projeto</a>
+              <a href="#" class="btn-projeto btn-code">Ver código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="projeto-card">
+          <div class="projeto-img">
+            <img src="assets/imgs/card-project-2.png" alt="Projeto Blog Pessoal - layout responsivo" />
+          </div>
+          <div class="projeto-content">
+            <h3>Blog Pessoal</h3>
+            <p>Mockup responsivo criado como prática de estrutura HTML e estilização com CSS.</p>
+            <div class="projeto-techs"><span>HTML</span><span>CSS</span></div>
+            <div class="projeto-btns">
+              <a href="#" class="btn-projeto">Ver projeto</a>
+              <a href="#" class="btn-projeto btn-code">Ver código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="projeto-card">
+          <div class="projeto-img">
+            <img src="assets/imgs/card-project-3.png" alt="Projeto Loja Online - e-commerce responsivo" />
+          </div>
+          <div class="projeto-content">
+            <h3>Loja Online</h3>
+            <p>Wireframe de loja virtual responsiva. Ideal para treinar grid, responsividade e layout.</p>
+            <div class="projeto-techs"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <div class="projeto-btns">
+              <a href="#" class="btn-projeto">Ver projeto</a>
+              <a href="#" class="btn-projeto btn-code">Ver código</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <div class="contato-content">
+        <p class="contato-text">Vamos conversar? Me encontre nas redes 👇</p>
+        <p class="contato-text">Estou sempre aberta a novas oportunidades e colaborações!</p>
+
+        <div class="social-links">
+          <a href="https://github.com/julyribeiro" target="_blank" class="social-link" rel="noopener noreferrer">
+            <i class="devicon-github-original"></i><span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/july-ribeiro" target="_blank" class="social-link" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+          </a>
+          <a href="mailto:devjurib@hotmail.com" class="social-link">
+            <i class="fas fa-envelope"></i><span>E-mail</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div>
+      <p>
+        Desenvolvido com carinho por <strong>July Ribeiro</strong>
+        <img class="heart" src="assets/imgs/coracao_rosa.png" width="20px" alt="coração rosa" />
+      </p>
+      <p class="direitos">&copy; Todos os direitos reservados - 2025.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
