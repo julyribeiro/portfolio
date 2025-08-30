@@ -51,5 +51,5 @@ O design foi pensado para ser **delicado, minimalista e responsivo**, destacando
 
 ## 📬 Contato
 
-- [LinkedIn](https://linkedin.com/in/july-ribeiroo)  
+- [LinkedIn](https://linkedin.com/in/july-ribeiro)  
 - [GitHub](https://github.com/julyribeiro)  
