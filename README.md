@@ -8,7 +8,7 @@ O objetivo é ter um espaço simples, bonito e funcional para compartilhar meu t
 ## 🚀 Sobre mim
 
 - 🎓 Formada em **Análise e Desenvolvimento de Sistemas**  
-- 💻 Estudando e me especializando em **desenvolvimento front-end**  
+- 💻 Em especialização contínua em **desenvolvimento front-end**, com foco em projetos práticos
 - 📚 Participando de **programas de capacitação e cursos** para aprimorar minhas habilidades  
 - ✨ Apaixonada por tecnologia, design minimalista e aprendizado contínuo  
 
